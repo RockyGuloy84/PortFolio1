@@ -13,6 +13,10 @@
     
     <link rel="stylesheet" href="css/style.css">
 
+ 
+
+    
+
 
     </head>
     <body>
@@ -20,7 +24,6 @@
             <div class="logo">
                 <img src="img/devjane.png" alt="">
             </div>
-
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
@@ -40,12 +43,13 @@
             Hi, I am <strong>Jane Smith</strong>
         </h1>
         <p class="section_subtitle section__subtitle--intro">front-end dev</p>
-        <img src="img/dev-jane-01.jpg" alt="a picture of Jane Smith smiling">
+        <img src="img/dev-jane-01.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
     </section>
 
 
     <!-- My Services -->
 
+  
     <section class="my-services" id="services">
         <h2 class="section__title section__title--services">What I do</h2>
             <div class="services">
@@ -57,7 +61,7 @@
                        voluptas unde soluta facilis consectetur explicabo et.</p> 
             </div><!-- / service-->
 
-            <div class="services">
+            
                 <div class="service"></div>
                    <h3>E-Commerce</h3>
                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -66,7 +70,7 @@
                     voluptas unde soluta facilis consectetur explicabo et.</p> 
             </div><!-- / service-->
 
-            <div class="services">
+            
                 <div class="service"></div>
                    <h3>Wordpress</h3>
                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -76,28 +80,36 @@
             </div><!-- / service-->
         </div> <!-- / services-->
 
-            <a href="#work" class="btn">My Work</a>
+            <a href="#" class="btn">My Work</a>
+            </section>
+
+        
+        
+
+            
 
 
             <!-- About Me -->
             <section class="about-me" id="about">
-                <h2 class="section__title section_title--about">Who I Am</h2>
-                <p class="section_subtitle section__subtitle--about">Designer & Developer based out of New York</p>
+                <h2 class="section__title section__title--about">Who I Am</h2>
+                <p class="section__subtitle section__subtitle--about">Designer & Developer based out of New York</p>
 
                 <div class="about-me__body">
-                    <p></p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quae, nulla necessitatibus molestiae 
+                        veniam ipsam.  Minus sint, maiores dolor quibusdam molestiae esse pariatur magni 
+                        repudiandae animi, quaerat placeat iure. Incidunt.</p>
                     <p></p>
                 </div>
-                <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus">
+                <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
             </section>
 
             <!-- My Work-->
 
             <section class="my-work" id="work">
-                <h2 class="section__title">My work</h2>
-                <p class="_section__subtitle"></p>
+                <h2 class="section__title section__title--work">My work</h2>
+                <p class="_section__subtitle section__subtitle--work">A selection of my range of work</p>
 
-                <div class="portfolio"></div>
+                <div class="portfolio">
 
                     <!-- Portfolio Item 01-->
                     <a href="#" class="portfolio__item">
@@ -143,16 +155,17 @@
             </section>
 
 <!--Footer-->
-<footer>
+<footer class="footer" >
     <!--Replace with your own email address-->
     <a href="mailto:hellojane@dev" class="footer__link">hello@jane.dev</a>
-        <ul class="social-list"></ul>
-            <li class="social-list__item"><a class="social-list__link" href="https://rockyguloy84.github.io/ToDoList1/">a</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://rockyguloy84.github.io/Mario-Website1/">b</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="twitter.com">c</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="github.com">d</a></li>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://rockyguloy84.github.io/ToDoList1/" > <i class="fab fa-codepen"></i>a</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://rockyguloy84.github.io/Mario-Website1/"><i class="fab fa-dribbble"></i> b</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="github.com"><i class="fab fa-github"></i></a></li>
+        </ul>
 </footer>
-    
+    <script src="js/index.js"></script>
 
     
     </body>
